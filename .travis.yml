@@ -1,0 +1,10 @@
+//言語の指定
+language: python
+
+//バージョンの指定
+python:
+    - 3.6
+    
+//実行させるテストコード
+script:
+    - python -m unittest discover
