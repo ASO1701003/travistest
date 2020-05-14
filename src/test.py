@@ -14,9 +14,6 @@ class MyTestCase(unittest.TestCase):
     def test_div_num(self):
         self.assertEqual(10, sansu.div_num(6, 4))
 
-    def test_div_num(self):
-        self.assertEqual(20, sansu.div_num(6, 4))
-
 
 if __name__ == '__main__':
     unittest.main()
